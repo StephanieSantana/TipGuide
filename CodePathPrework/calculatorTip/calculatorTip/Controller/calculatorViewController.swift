@@ -17,7 +17,6 @@ class calculatorViewController: UIViewController {
     
     @IBOutlet weak var totalWithTip: UILabel!
     
-    
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     
     var tip = 0.10
@@ -39,7 +38,7 @@ class calculatorViewController: UIViewController {
     }
  
     @IBOutlet weak var calculateButton: UIButton!
-    
+        
     //function for when the calcuate function is pressed
     @IBAction func calculateTip(_ sender: Any) {
         
@@ -47,13 +46,13 @@ class calculatorViewController: UIViewController {
         let billAmount = Double(self.billBeforeTip.text ?? "") ?? 0
         
         //the tip amount is equal to the bill amount multiplied by the tip percentaged selected
+        
         let tipAmount = (billAmount * tip)
         self.calculatedTipAmount.text = "\(tipAmount)"
         
         //the total is equal to the original bill amount plus the calculated tip amoutn
         let total = (billAmount + tipAmount)
         self.totalWithTip.text = "\(total)"
-        
        
         //formats the output labels to have a $ sign and to correct decimal
         calculatedTipAmount.text = String(format:"$%.2f", tipAmount)
