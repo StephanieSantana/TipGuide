@@ -7,6 +7,8 @@ Submitted by: **Stephanie Santana**
 Time spent: **3** hours spent in total
 
 ## User Stories
+Use Case 1:
+Alex is new to going out to restaurants and always has trouble figuring out how to calculate the tip to his bill. He wants to be able to see his resturant bill total with the tip percentage included. 
 
 The following **required** functionality is complete:
 
