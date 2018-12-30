@@ -1,10 +1,10 @@
-# Pre-work - *Name of App Here*
+# Pre-work - Tip Guide
 
-**Name of your app** is a tip calculator application for iOS.
+**Tip Guide** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: **Stephanie Santana**
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
@@ -22,6 +22,8 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
+* Added in App Logo and launch screen
+* Added in a Tab Controller for future feature capability
 
 ## Video Walkthrough 
 
