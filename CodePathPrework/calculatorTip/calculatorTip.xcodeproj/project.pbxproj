@@ -15,6 +15,7 @@
 		26C1478821D86AA6000BC9E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C1478621D86AA6000BC9E3 /* LaunchScreen.storyboard */; };
 		26C1479321D86AA6000BC9E3 /* calculatorTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1479221D86AA6000BC9E3 /* calculatorTipTests.swift */; };
 		26C1479E21D86AA6000BC9E3 /* calculatorTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1479D21D86AA6000BC9E3 /* calculatorTipUITests.swift */; };
+		26C147B021D87ADD000BC9E3 /* calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C147AE21D87ADD000BC9E3 /* calculator.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		26C1479921D86AA6000BC9E3 /* calculatorTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C1479D21D86AA6000BC9E3 /* calculatorTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorTipUITests.swift; sourceTree = "<group>"; };
 		26C1479F21D86AA6000BC9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C147AF21D87ADD000BC9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = calculatorTip/View/Base.lproj/calculator.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		26C147AC21D86FC0000BC9E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				26C147AE21D87ADD000BC9E3 /* calculator.storyboard */,
 				26C1478621D86AA6000BC9E3 /* LaunchScreen.storyboard */,
 				26C1478121D86AA4000BC9E3 /* Main.storyboard */,
 			);
@@ -258,6 +261,7 @@
 			files = (
 				26C1478821D86AA6000BC9E3 /* LaunchScreen.storyboard in Resources */,
 				26C1478521D86AA6000BC9E3 /* Assets.xcassets in Resources */,
+				26C147B021D87ADD000BC9E3 /* calculator.storyboard in Resources */,
 				26C1478321D86AA4000BC9E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +339,14 @@
 				26C1478721D86AA6000BC9E3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		26C147AE21D87ADD000BC9E3 /* calculator.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C147AF21D87ADD000BC9E3 /* Base */,
+			);
+			name = calculator.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
