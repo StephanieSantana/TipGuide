@@ -22,16 +22,14 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
-* Added in App Logo and launch screen
-* Added in a Tab Controller for future feature capability
+* [x] Added in App Logo and launch screen
+* [x] Added in a Tab Controller for future feature capability
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/lZFOlp5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+![](https://gph.is/2BP7mPN.gif)
 
 ## Notes
 
