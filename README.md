@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![](https://gph.is/2BP7mPN.gif)
+![](https://media.giphy.com/media/9PrqMfrr97ynaB9EUt/giphy.gif)
 
 ## Notes
 
