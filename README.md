@@ -33,9 +33,7 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
-Challenges were figuring out how to implement the user settings due to using a UISegmentedControl.
+One of the challenges I had when creating the app was figuring out how to implement the user settings due to using a UISegmentedControl. In version 2.0, I hope to add in the settings feature. 
 
 ## License
 
