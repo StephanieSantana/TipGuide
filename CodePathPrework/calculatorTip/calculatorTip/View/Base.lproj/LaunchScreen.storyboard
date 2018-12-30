@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ombre" translatesAutoresizingMaskIntoConstraints="NO" id="sPS-kx-4NJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calculator-logo" translatesAutoresizingMaskIntoConstraints="NO" id="KjX-gY-rya">
+                                <rect key="frame" x="114" y="250" width="146" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="45R-Vx-8Nz"/>
+                                    <constraint firstAttribute="width" constant="146" id="gfc-rW-b2W"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="146" id="hnS-6k-pxg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDl-ge-vzj">
+                                <rect key="frame" x="155" y="206" width="65" height="38"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZK-gO-CE9">
+                                <rect key="frame" x="139" y="387" width="96" height="38"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KjX-gY-rya" secondAttribute="trailing" constant="115" id="BhJ-jL-KOx"/>
+                            <constraint firstItem="KjX-gY-rya" firstAttribute="top" secondItem="qDl-ge-vzj" secondAttribute="bottom" constant="6" id="DRm-dL-Tje"/>
+                            <constraint firstItem="3ZK-gO-CE9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="O5J-HV-FyD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qDl-ge-vzj" secondAttribute="trailing" constant="155" id="STe-9b-bbC"/>
+                            <constraint firstItem="sPS-kx-4NJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VWG-26-gzI"/>
+                            <constraint firstItem="sPS-kx-4NJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WqB-0Q-cv5"/>
+                            <constraint firstItem="qDl-ge-vzj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="X1d-y5-5u1"/>
+                            <constraint firstItem="sPS-kx-4NJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="e7p-xw-gCa"/>
+                            <constraint firstItem="KjX-gY-rya" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="114" id="eKj-eD-IgG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3ZK-gO-CE9" secondAttribute="bottom" constant="242" id="gkH-5p-L3Z"/>
+                            <constraint firstItem="qDl-ge-vzj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="186" id="jge-bE-Ua5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3ZK-gO-CE9" secondAttribute="trailing" constant="140" id="lsj-6L-bjA"/>
+                            <constraint firstItem="sPS-kx-4NJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="pl7-Gm-XDm"/>
+                            <constraint firstItem="3ZK-gO-CE9" firstAttribute="top" secondItem="KjX-gY-rya" secondAttribute="bottom" constant="8" id="zv5-60-H32"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calculator-logo" width="180" height="180"/>
+        <image name="ombre" width="640" height="1136"/>
+    </resources>
+</document>
